@@ -573,6 +573,8 @@ transform:rotate(360deg) scale(1.4);
     background: rgba(3, 180, 245, 0.8);
     padding-top: 6%;
     text-align: center;
+    overflow-x:scroll;
+    
 }
 #fifth h3{
     text-align: center;
@@ -1160,4 +1162,11 @@ Jan 19, 2013
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+}
+
+#preloader:
+{
+    position:absolute;
+    width: 40%;
+    height:40%;
 }
