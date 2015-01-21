@@ -1,3 +1,0 @@
-progress bar, preloader
-fix rs.
-blue alpha-tint on games

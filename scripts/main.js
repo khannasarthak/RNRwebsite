@@ -116,13 +116,13 @@ var init = function() {
    image.fadeOut(500, function () {
 
    image.css('background-image', 'url(' + images [im++] +')');
-       
+   if(im >= images.length)
+    im = 0;      
    image.fadeIn(500);
 
    });
 
-   if(im == images.length)
-    im = 0;
+
   }, 8000);           
  
 
