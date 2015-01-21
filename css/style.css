@@ -3,10 +3,6 @@
     src:url('Montserrat-Bold.ttf');
 }
 
-@font-face {
-    font-family: rupee;
-    src:url('../css/Rupee_Foradian.ttf') format('truetype');
-}
 
 @font-face {
     font-family: hacked;
@@ -199,6 +195,40 @@ body p,body h6,body h5{
     height: 5.2em;
     border-radius: 50%;
     border: .2em solid rgb(3, 180, 245);
+}
+
+#leftImg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: #20beef;
+    opacity: 50%;
+    text-shadow: 4px 8px 6px rgba(0, 0, 0, 1);
+}
+
+#leftImg p{
+    font-family: fof;
+    font-size: 5em;  
+  
+}
+
+
+#rightImg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    color: #20beef;
+    opacity: 50%;
+    text-shadow: -4px 8px 6px rgba(0, 0, 0, 1);
+}
+
+#rightImg p{
+    font-family: fof;
+    font-size: 5em;  
+  
 }
 
 .arrow{
@@ -1023,14 +1053,14 @@ section#timeline article div.inner span.date {
   text-transform: uppercase;
   background: #20beef;
   color: rgba(255,255,255,0.5);
-    box-shadow: 0 0 0 1px green;
+    box-shadow: 0 0 0 2px green;
   border: 2px solid rgba(255,255,255,0.2);
   
 }
 
 
 section#timeline article div.inner span.upcoming {
-  box-shadow: 0 0 0 1px red;
+  box-shadow: 0 0 0 2px red;
 }
 
 section#timeline article div.inner span.date span {

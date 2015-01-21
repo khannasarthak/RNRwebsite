@@ -1,4 +1,4 @@
-Logo Change.
-Stop scroll in map.
-but an iframe / equivalent for events.
-Scrolling buttons
+progress bar, preloader
+fix rs.
+fade on hover, rs
+blue alpha-tint on games

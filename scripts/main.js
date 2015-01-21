@@ -67,6 +67,10 @@ function addLoadEvent(func) {
 
 addLoadEvent(preloader);
 
+var im=0; 
+var image;
+var images = ['../img/mainbg1.jpg','../img/mainbg2.jpg','../img/mainbg3.jpg','../img/mainbg4.jpg','../img/mainbg5.jpg','../img/mainbg6.jpg','../img/mainbg7.jpg','../img/mainbg.jpg'];
+
 
 
 var init = function() {
@@ -75,24 +79,21 @@ var init = function() {
     document.getElementById("blankBG").style.opacity = 0;
     document.getElementById("blankBG").style.display = "none";
     
-  var i =0;
-  var images = ['../img/mainbg1.jpg','../img/mainbg2.jpg','../img/mainbg3.jpg','../img/mainbg4.jpg','../img/mainbg5.jpg','../img/mainbg6.jpg','../img/mainbg7.jpg','../img/mainbg.jpg'];
-  var image = $('#bgs');
-
+  image = $('#bgs');
   image.css('background-image', 'url("../img/mainbg.jpg")')
   
   setInterval(function(){  
 
    image.fadeOut(500, function () {
 
-   image.css('background-image', 'url(' + images [i++] +')');
+   image.css('background-image', 'url(' + images [im++] +')');
        
    image.fadeIn(500);
 
    });
 
-   if(i == images.length)
-    i = 0;
+   if(im == images.length)
+    im = 0;
   }, 8000);           
  
 
@@ -100,8 +101,35 @@ var init = function() {
 
 };
 
+function rightImg()
+{
+   image.fadeOut(500, function () {
 
+   image.css('background-image', 'url(' + images [im] +')');
+   im++;
+   image.fadeIn(500);
 
+   });
+
+   if(im >= images.length)
+    im = 1;
+    
+}
+
+function leftImg()
+{
+   image.fadeOut(500, function () {
+
+   image.css('background-image', 'url(' + images [im] +')');
+       im--;
+   image.fadeIn(500);
+
+   });
+
+   if(im == 0)
+    im = images.length-1;
+    
+}
 
 
 
