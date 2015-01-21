@@ -584,6 +584,8 @@ transform:rotate(360deg) scale(1.4);
     background: rgba(3, 180, 245, 0.8);
     padding-top: 6%;
     text-align: center;
+    overflow-x:scroll;
+    
 }
 #fifth h3{
     text-align: center;
@@ -1187,8 +1189,16 @@ Jan 19, 2013
 	transition: all 0.3s ease;
 }
 
+<<<<<<< HEAD
 #timelineContainer{
     overflow-y: scroll;
     height: 80%;
     background-color: rgba(32,190,239,0.4);
+=======
+#preloader:
+{
+    position:absolute;
+    width: 40%;
+    height:40%;
+>>>>>>> origin/master
 }
