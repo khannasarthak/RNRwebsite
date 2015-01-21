@@ -1,4 +1,206 @@
-function preloader() {
+var flipper=1;
+
+function flip(){
+    if(flipper==1)
+    {
+        document.getElementById("third").innerHTML = " ";
+        
+        
+        flipper=0;
+    }
+    else{
+        
+        document.getElementById("third").innerHTML = '            <ul class="tiles">
+                        <div class="col1 clearfix">
+
+                            <li class="tile tile-big tile-3 slideTextUp">
+                                <a href="http://www.easports.com/fifa" target="_blank">
+                                    <div id="img-fifa">
+                                        <p></p>
+                                    </div>
+                                    <div>
+                                        <p>
+                                            <img id="icon-fifa" src="/img/fifa15.jpg" />
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+
+
+                            <li class="tile tile-big tile-1 slideTextUp">
+                                <a href="http://thecrew-game.ubi.com/" target="_blank">
+                                    <div id="img-crew">
+                                        <p></p>
+                                    </div>
+                                    <div>
+                                        <p>
+                                            <img id="icon-crew" src="/img/crew-icon.jpg" />
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+
+
+                            <li class="tile tile-big tile-1 slideTextUp">
+                                <a href="http://www.callofduty.com/advancedwarfare" target="_blank">
+                                    <div id="img-cod">
+                                        <p></p>
+                                    </div>
+                                    <div>
+                                        <p>
+                                            <img id="icon-cod" src="/img/cod-icon.png" />
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+
+
+                        </div>
+
+                        <div class="col2 clearfix">
+
+<li class="tile tile-big tile-5 slideTextUp">
+                                <a href="http://watchdogs.ubi.com/" target="_blank">
+                                    <div>
+                                        <p>
+                                            <img id="icon-watchdogs" src="/img/watchdogs.jpg" />
+                                        </p>
+                                    </div>
+                                    <div id="watchdogsfont">
+                                        <p>Watchdogs</p>
+                                    </div>
+                                </a>
+                            </li>
+<!--
+
+                            <li class="tile tile-small tile tile-2 rotate3d rotate3dY">
+                                <div class="faces">
+                                    <a href="http://leagueoflegends.com" target="_blank">
+                                        <div class="front" id="icon-lol"><span></span>
+                                        </div>
+                                    </a>
+                                    <a href="http://www.teamfortress.com/" target="_blank">
+                                        <div class="back" id="icon-tf2">
+                                            <p></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="tile tile-small last tile-2 rotate3d rotate3dY">
+                                <div class="faces">
+                                    <a href="http://steamcommunity.com/app/221380" target="_blank">
+
+                                        <div class="front" id="icon-aoe2"><span></span>
+                                        </div>
+                                    </a>
+
+
+                                    <a href="http://thinkwithportals.com/" target="_blank">
+                                        <div class="back" id="icon-p2">
+                                            <p></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+-->
+
+                            <a href="http://dota2.com" target="_blank">
+                                <li class="tile tile-big tile-2 slideTextLeft ">
+
+                                    <div>
+                                        <p>
+                                            <img id="icon-dota2" src="/img/dota2-logo.jpg" />
+                                        </p>
+                                    </div>
+                                    <div id="dota2font">
+                                        <p>Dota2</p>
+                                    </div>
+                                </li>
+                            </a>
+                            <!--Tiles with a 3D effect should have the following structure:
+            1) a container inside the tile with class of .faces
+            2) 2 figure elements, one with class .front and the other with class .back-->
+                            <li class="tile tile-small tile tile-2 rotate3d rotate3dY">
+                                <div class="faces">
+
+                                    <div class="front" id="icon-blur"><span></span>
+                                    </div>
+
+                                    <a href="http://l4d.com" target="_blank">
+                                        <div class="back" id="icon-l4d2">
+                                            <p></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="tile tile-small last tile-2 rotate3d rotate3dY">
+                                <div class="faces">
+                                    <a href="http://warframe.com" target="_blank">
+                                        <div class="front" id="icon-wf"><span></span>
+                                        </div>
+                                    </a>
+
+                                    <a href="http://needforspeed.com/most-wanted" target="_blank">
+                                        <div class="back" id="icon-nfs">
+                                            <p></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                        </div>
+
+                        <div class="col3 clearfix">
+                            <a href="http://www.counter-strike.net" target="_blank">
+                                <li class="tile tile-2xbig tile-9 fig-tile" id="icon-csgo">
+                                </li>
+                            </a>
+
+                            <li class="tile tile-big tile-5">
+                                <a onclick="flip()">
+                                    <div>
+                                        <p>
+                                            <img id="icon-watchdogs" src="/img/dots.png" />
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+
+                        </div>
+                    </ul>        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        ';
+        
+        
+        
+        
+        
+        
+        
+        flipper=1;
+    }
+}
+
+function preloader(){
   
     
     <!--//--><![CDATA[//><!--

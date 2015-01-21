@@ -879,8 +879,12 @@ transform:rotate(360deg) scale(1.4);
 .block#pricing_advanced > div > div { background-color: #77bf22; }
 .block#pricing_professional > div > div { background-color: #20beef; }
 
-.block_container {
-  
+.block_container{
+  background-color: salmon;
+}
+
+.block_container:hover{
+    opacity: 50%;
 }
 
 /* --------------- TOP --------------- */
@@ -1036,6 +1040,12 @@ section#timeline article div.inner span.date {
   border: 2px solid rgba(255,255,255,0.2);
   
 }
+
+
+section#timeline article div.inner span.upcoming {
+  box-shadow: 0 0 0 1px red;
+}
+
 section#timeline article div.inner span.date span {
   display: block;
   text-align: center;
@@ -1089,9 +1099,6 @@ section#timeline article div.inner h2 {
   background:#20beef;
 }
 
-.upcoming {
-  box-shadow: 0 0 0 1px red;
-}
 
 /*
 section#timeline article:nth-child(1) div.inner h2 {
@@ -1195,3 +1202,4 @@ Jan 19, 2013
     height: 80%;
     background-color: rgba(32,190,239,0.4);
 }
+
