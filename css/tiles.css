@@ -1351,12 +1351,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 
-#icon-blur{
-    background-image: url(../img/blur-icon.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 #icon-wf{
     background-image: url(../img/wf-logo.jpg);
