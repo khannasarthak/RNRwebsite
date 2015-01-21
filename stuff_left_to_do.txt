@@ -1,4 +1,3 @@
 progress bar, preloader
 fix rs.
-fade on hover, rs
 blue alpha-tint on games

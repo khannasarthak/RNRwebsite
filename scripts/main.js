@@ -23,6 +23,35 @@ function flip(){
 }
 
 function preloader(){
+    
+     moveProgressBar();
+    // on browser resize...
+    $(window).resize(function() {
+        moveProgressBar();
+    });
+
+    // SIGNATURE PROGRESS
+    function moveProgressBar() {
+        var getPercent = ($('.progress-wrap').data('progress-percent') / 100);
+        var getProgressWrapWidth = $('.progress-wrap').width();
+        var progressTotal = getPercent * getProgressWrapWidth;
+        var animationLength = 2500;
+        
+        // on page load, animate percentage bar to data percentage length
+        // .stop() used to prevent animation queueing
+        $('.progress-bar').stop().animate({
+            left: progressTotal
+        }, animationLength);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
     
     <!--//--><![CDATA[//><!--
@@ -107,12 +136,13 @@ function rightImg()
 
    image.css('background-image', 'url(' + images [im] +')');
    im++;
+       
+   if(im >= images.length)
+    im = 1;
    image.fadeIn(500);
 
    });
 
-   if(im >= images.length)
-    im = 1;
     
 }
 
@@ -122,12 +152,13 @@ function leftImg()
 
    image.css('background-image', 'url(' + images [im] +')');
        im--;
+          if(im <= 0)
+    im = images.length-1;
    image.fadeIn(500);
 
    });
 
-   if(im == 0)
-    im = images.length-1;
+
     
 }
 
