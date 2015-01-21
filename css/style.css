@@ -860,7 +860,7 @@ transform:rotate(360deg) scale(1.4);
 }
 
 #rnrspan{
-    background-image: url(../img/text_back.jpg);
+    background-image: url(../img/text_mask.jpg);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }

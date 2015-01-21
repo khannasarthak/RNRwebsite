@@ -15,3 +15,14 @@
 	Language: English
 	Doctype: HTML5
 	IDE: Brackets, Photoshop
+
+
+/* FUTURE MAYBE? */
+	buy domain
+	setup 000webhosts
+	fix gallery
+	add gear by in about page, reduce size of both panels
+	set up google analytics and events on fb
+	explain bala how to add events, also 000webhosts
+	
+	
