@@ -65,9 +65,52 @@ you can use the generic selector below, but it's slower:
     height: auto
 }
 
+
+#dota2font
+{
+    font-family: trajan;
+    font-size: 1em;
+}
+
+
+#watchdogsfont
+{
+    text-decoration: none;
+    color: white;
+    font-family: hacked;
+}
+
+#img-cod
+{
+    background-size: cover;
+    background-image: url(../img/cod-img.jpg);
+}
+
+#img-dota2
+{
+    background-size: cover;
+    background-image: url('../img/dota2-img.jpg');
+}
+
+#img-watchdogs
+{
+    background-size: cover;
+    background-image: url(../img/watch-img.jpg);
+}
+
+#img-blur
+{
+    background-size: cover;
+    background-image: url(../img/blur-img.jpg);
+}
+
+
 #icon-dota2 {
-  width: 70%;
+  width: 15%;
   height: auto;
+}
+
+#icon-blur {
 }
 
 .icon-cloud:before {
@@ -730,7 +773,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     }
 
     .tile-1 p {
-      font-size: 1.3em
+             font-size: 2em;
     }
 
     /* slide text inside tile to the right*/
@@ -1222,10 +1265,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
       }
     }
 
-#icon-fifa{
-    background-color: #fff;
-}
-
 #img-fifa{
  background-image: url(../img/fifa15play.jpg);
  background-repeat: no-repeat;
@@ -1238,6 +1277,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+#img-csgo{
+    background-image: url(../img/csgo-img.jpg);
+    background-size: cover;
+}
+
 
 #img-crew{
     background-image: url(../img/crew-img.jpg);

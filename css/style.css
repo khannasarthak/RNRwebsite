@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: rupee;
+    src:url('../css/Rupee_Foradian.ttf') format('truetype');
+}
+
+@font-face {
     font-family: hacked;
     src:url('../css/hacked.ttf') format('truetype');
 }
@@ -785,24 +790,6 @@ transform:rotate(360deg) scale(1.4);
     padding-top:7%;
 }
 
-#dota2font
-{
-    font-family: trajan;
-}
-
-
-#watchdogsfont
-{
-    text-decoration: none;
-    color: black;
-    font-family: hacked;
-}
-
-#img-cod
-{
-    background-size: cover;
-    background-image: url(../img/cod-img.jpg);
-}
 
 .secondBox{
     width: 100%;
@@ -911,7 +898,7 @@ transform:rotate(360deg) scale(1.4);
 
 .price_amount {
     
-  
+    font-family: DejaVu Sans;
   font-size: 4vw;
   line-height: 6vw;
   letter-spacing: -.4vw;
@@ -924,7 +911,7 @@ transform:rotate(360deg) scale(1.4);
 }
 
 .pound_sign {
-    
+
   font-size: 3vw;
   line-height: 4vw;
   vertical-align: top;
@@ -1203,3 +1190,7 @@ Jan 19, 2013
     background-color: rgba(32,190,239,0.4);
 }
 
+#flipped2{
+    display: none;
+    
+}
