@@ -5,7 +5,7 @@
 	From: India
 		
 	Sarthak Khanna
-	Contact: sarthak.khanna1994@gmail.com
+	Contact: khannasarthak.1994@gmail.com
 	Twitter: @excrutiator1994
 	From: India
 
@@ -22,7 +22,8 @@
 	setup 000webhosts
 	fix gallery
 	add gear by in about page, reduce size of both panels
-	set up google analytics and events on fb
-	explain bala how to add events, also 000webhosts
+	set up google analytics
+	explain bala how to add events
+
 	
 	
